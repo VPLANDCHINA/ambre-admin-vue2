@@ -1,0 +1,366 @@
+
+.p{
+    &l{
+        &-5{
+            padding-left:5px;
+        }
+        &-10{
+            padding-left:10px;
+        }
+        &-15{
+            padding-left:15px;
+        }
+        &-20{
+            padding-left:20px;
+        }
+        &-25{
+            padding-left:25px;
+        }
+        &-30{
+            padding-left:30px;
+        }
+        &-35{
+            padding-left:35px;
+        }
+        &-40{
+            padding-left:40px;
+        }
+        &-45{
+            padding-left:45px;
+        }
+        &-50{
+            padding-left:50px;
+        }
+        &-55{
+            padding-left:55px;
+        }
+        &-60{
+            padding-left:60px;
+        }
+        &-65{
+            padding-left:65px;
+        }
+        &-70{
+            padding-left:70px;
+        }
+    }
+    &r{
+        &-10{
+            padding-right:10px;
+        }
+        &-15{
+            padding-right:15px;
+        }
+        &-20{
+            padding-right:20px;
+        }
+        &-25{
+            padding-right:25px;
+        }
+        &-30{
+            padding-right:30px;
+        }
+        &-40{
+            padding-right:40px;
+        }
+    }
+    &t{
+        &-10{
+            padding-top:10px;
+        }
+        &-15{
+            padding-top:15px;
+        }
+        &-20{
+            padding-top:20px;
+        }
+        &-25{
+            padding-top:25px;
+        }
+        &-30{
+            padding-top:30px;
+        }
+        &-35{
+            padding-top:35px;
+        }
+        &-40{
+            padding-top:40px;
+        }
+        &-45{
+            padding-top:45px;
+        }
+        &-50{
+            padding-top:50px;
+        }
+    }
+    &b{
+        &-5{
+            padding-bottom:5px;
+        }
+        &-10{
+            padding-bottom:10px;
+        }
+        &-15{
+            padding-bottom:15px;
+        }
+        &-20{
+            padding-bottom:20px;
+        }
+        &-25{
+            padding-bottom:25px;
+        }
+        &-30{
+            padding-bottom:30px;
+        }
+        &-35{
+            padding-bottom:35px;
+        }
+        &-40{
+            padding-bottom:40px;
+        }
+        &-45{
+            padding-bottom:45px;
+        }
+        &-50{
+            padding-bottom:50px;
+        }
+    }
+    
+}
+.m{
+    &l{
+        &-10{
+            margin-left:10px;
+        }
+        &-15{
+            margin-left:15px;
+        }
+        &-20{
+            margin-left:20px;
+        }
+        &-25{
+            margin-left:25px;
+        }
+        &-30{
+            margin-left:30px;
+        }
+    }
+    &r{
+        &-10{
+            margin-right:10px;
+        }
+        &-15{
+            margin-right:15px;
+        }
+        &-20{
+            margin-right:20px;
+        }
+        &-25{
+            margin-right:25px;
+        }
+        &-30{
+            margin-right:30px;
+        }
+    }
+    &t{
+        &-10{
+            margin-top:10px;
+        }
+        &-15{
+            margin-top:15px;
+        }
+        &-20{
+            margin-top:20px;
+        }
+        &-25{
+            margin-top:25px;
+        }
+        &-30{
+            margin-top:30px;
+        }
+    }
+    &b{
+        &-10{
+            margin-bottom:10px;
+        }
+        &-15{
+            margin-bottom:15px;
+        }
+        &-20{
+            margin-bottom:20px;
+        }
+        &-25{
+            margin-bottom:25px;
+        }
+        &-30{
+            margin-bottom:30px;
+        }
+        &-35{
+            margin-bottom:35px;
+        }
+        &-40{
+            margin-bottom:40px;
+        }
+        &-45{
+            margin-bottom:45px;
+        }
+        &-50{
+            margin-bottom:50px;
+        }
+    }
+    
+}
+.text{
+    &-center{
+        text-align: center;
+    }
+    &-right{
+        text-align: right;
+    }
+    &-left{
+        text-align: left;
+    }
+    &-12{
+        font-size: 12px;
+    }
+    &-14{
+        font-size: 14px;
+    }
+    &-16{
+        font-size: 16px;
+    }
+    &-18{
+        font-size: 18px;
+    }
+    &-24{
+        font-size:24px;
+    }
+    &-40{
+        font-size: 40px;
+    }
+}
+.color{
+    &-ffffff,&-white{
+        color:#fff;
+    }
+    &-primary,&-f02d23{
+        color:$--color-primary;
+    }
+    &-7f7f7f{
+        color:#7f7f7f;
+    }
+    &-10afd1{
+        color:#10afd1;
+    }
+    &-141414{
+        color:#141414;
+    }
+    &-414141{
+        color:#414141;
+    }
+    &-576b95{
+        color:#576b95;
+    }
+    &-f96565{
+        color:#f96565;
+    }
+}
+.bg{
+    &-color{
+        &-primary,&-f02d23{
+            background-color:$--color-primary;
+        }
+        &-fbfbfb{
+            background-color: #fbfbfb;
+        }
+        &-10afd1{
+            background-color: #10afd1;
+        }
+    }
+    
+}
+.font{
+    &-weight{
+        &-normal{
+            font-weight: normal;
+        }
+        &-bold{
+            font-weight: bold;
+        }
+    }
+}
+.vertical-align{
+    &-top {
+        vertical-align: top;
+    }
+    &-middle{
+        vertical-align: middle;
+    }
+    &-bottom {
+        vertical-align: bottom;
+    }
+}
+.flex{
+    display: flex;
+    &-warp{
+        @extend .flex;
+        flex-wrap: wrap;
+    }
+    &-column{
+        @extend .flex;
+        flex-direction: column;
+    }
+    &-ju-start{
+        @extend .flex;
+        justify-content: flex-start;
+    }
+    &-ju-end{
+        @extend .flex;
+        justify-content: flex-end;
+    }
+    &-ju-center{
+        @extend .flex;
+        justify-content: center;
+    }
+    &-ju-between{
+        @extend .flex;
+        justify-content: space-between;
+    }
+    &-al-center{
+        @extend .flex;
+        align-items: center;
+    }
+    &-ju-al-start{
+        @extend .flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &-ju-al-center{
+        @extend .flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-ju-al-between{
+        @extend .flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-auto{
+        @extend .flex;
+        flex:auto;
+    }
+    &-1{
+        flex:1;
+    }
+}
+.cursor{
+    &-pointer{
+        cursor: pointer;
+    }
+    
+}
+.float{
+    &-right{
+        float: right;
+    }
+}

@@ -1,0 +1,81 @@
+.ambrenav{
+  position: fixed;
+  height:100%;
+  width:$--nav-width;
+  background-color: $--solid-theme;
+  box-shadow: $--box-shadow;
+  &-label{
+    height:$--bar-height;
+    box-sizing: border-box;
+    line-height:$--bar-height;
+    padding:0 $--app-padding;
+    cursor: pointer;
+  }
+  &-person{
+    padding:0 $--app-padding;
+    height:$--person-height;
+    padding-top:$--app-padding;
+    img{
+      background-color:$--bg-theme;
+      width:40px;
+      height:40px;
+      border-radius: 10%;
+      display: block;
+    }
+  }
+  &-block{
+    position: absolute;
+    width:calc(#{$--bar-height*2});
+    height:calc(100% - #{$--bar-height} - #{$--person-height} - #{$--app-padding});
+    overflow: auto;
+    &-item{
+      transition: .3s all;
+      position: relative;
+      cursor: pointer;
+      width:calc(#{$--bar-height*2});
+      height:calc(#{$--bar-height*2});
+      background-color: $--solid-theme;
+      border-top:1px solid $--border-theme;
+      border-right:1px solid $--border-theme;
+      box-sizing: border-box;
+      &-active{
+        border-left:10px solid $--color-theme;
+        border-top:none;
+        background-color:$--bg-theme;
+      }
+      &:hover{
+        @extend .ambrenav-block-item-active
+      }
+    }
+  }
+  &-list{
+    left:calc(#{$--bar-height*2});
+    position: absolute;
+    width:calc(#{$--nav-width} - #{$--bar-height*2});
+    height:calc(100% - #{$--bar-height} - #{$--person-height} - #{$--app-padding});
+    overflow: auto;
+    &-item{
+      // font-weight: bold;
+      height:$--bar-height;
+      padding:0 $--app-padding;
+      transition: all .2s;
+      cursor: pointer;
+      &-active{
+        position: relative;
+        background-color:$--bg-theme;
+        background-color:$--bg-theme;
+        border-right: 5px solid $--color-theme;
+        padding-left:calc(20px + #{$--app-padding});
+      }
+      &-active::before{
+        position: absolute;
+        left:calc(#{$--app-padding});;
+        content: '·';
+      }
+      &:hover{
+        @extend .ambrenav-list-item-active
+      }
+    }
+  }
+  
+}

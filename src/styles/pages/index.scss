@@ -1,0 +1,30 @@
+.index{
+  &-echarts{
+    &-l,&-m,&-r{
+      width:calc(100% / 3 - 10px);
+      >div{
+        box-sizing: border-box;
+        border:1px solid $--border-theme;
+        border-radius: $--border-radius;
+        box-shadow: $--box-shadow;
+      }
+    }
+    &-l{
+      >div{
+        height:200px;
+        margin-bottom:10px;
+      }
+    }
+    &-m{
+      >div{
+        height:620px;
+      }
+    }
+    &-r{
+      >div{
+        height:300px;
+        margin-bottom:20px;
+      }
+    }
+  }
+}

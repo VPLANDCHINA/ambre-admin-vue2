@@ -1,4 +1,8 @@
-
+// 公共样式
+.m-auto{
+    margin:0 auto;
+    max-width:1200px;
+}
 .p{
     &l{
         &-5{
@@ -65,6 +69,9 @@
         }
     }
     &t{
+        &-5{
+            padding-top:5px;
+        }
         &-10{
             padding-top:10px;
         }
@@ -124,11 +131,17 @@
         &-50{
             padding-bottom:50px;
         }
+        &-55{
+            padding-bottom:55px;
+        }
     }
     
 }
 .m{
     &l{
+        &-0{
+            margin-left:0;
+        }
         &-10{
             margin-left:10px;
         }
@@ -235,40 +248,25 @@
     &-24{
         font-size:24px;
     }
+    &-28{
+        font-size: 28px;;
+    }
+    &-32{
+        font-size:32px;
+    }
     &-40{
         font-size: 40px;
     }
 }
 .color{
-    &-ffffff,&-white{
-        color:#fff;
-    }
-    &-primary,&-f02d23{
-        color:$--color-primary;
-    }
-    &-7f7f7f{
-        color:#7f7f7f;
-    }
-    &-10afd1{
-        color:#10afd1;
-    }
-    &-141414{
-        color:#141414;
-    }
-    &-414141{
-        color:#414141;
-    }
-    &-576b95{
-        color:#576b95;
-    }
-    &-f96565{
-        color:#f96565;
+    &-theme{
+        color:$--color-theme;
     }
 }
 .bg{
     &-color{
         &-primary,&-f02d23{
-            background-color:$--color-primary;
+            background-color:$--color-theme;
         }
         &-fbfbfb{
             background-color: #fbfbfb;
@@ -335,6 +333,11 @@
         justify-content: flex-start;
         align-items: center;
     }
+    &-ju-al-end{
+        @extend .flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
     &-ju-al-center{
         @extend .flex;
         justify-content: center;
@@ -362,5 +365,10 @@
 .float{
     &-right{
         float: right;
+    }
+}
+.display{
+    &-block{
+        display: block;
     }
 }

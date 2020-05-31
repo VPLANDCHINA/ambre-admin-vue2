@@ -1,1 +1,17 @@
-$--color-primary: #000;
+// light
+$--color-theme:#24292e;
+$--bg-theme:#f0f3f7;
+$--border-theme:#f3f3f3;
+$--solid-theme:#fff;
+// dark
+// $--color-theme:#fff;
+// $--bg-theme:#24292e;
+// $--border-theme:#00072c;
+// $--solid-theme:#213344;
+// const
+$--bar-height: 50px;
+$--nav-width: 300px;
+$--person-height:150px;
+$--app-padding: 20px;
+$--border-radius:10px;
+$--box-shadow: 1px 1px 12px 1px $--border-theme;
